@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>F:\Jay\Electronics\KiCAD projects\april_proj\april_proj.sch</source>
+    <date>5/10/2020 4:29:38 PM</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>74 AUC BOARD</title>
+        <company/>
+        <rev/>
+        <date>2020-05-05</date>
+        <source>april_proj.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Oscillators/" tstamps="/5EB467C5/">
+      <title_block>
+        <title>74 AUC BOARD</title>
+        <company/>
+        <rev/>
+        <date>2020-05-05</date>
+        <source>file5EB467C4.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Power/" tstamps="/5EB694AC/">
+      <title_block>
+        <title>74 AUC BOARD</title>
+        <company/>
+        <rev/>
+        <date>2020-05-05</date>
+        <source>file5EB694AB.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>74AUC1GU04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74auc1gu04.pdf</datasheet>
+      <libsource lib="74xGxx" part="74AUC1GU04" description="74AUC1G04, Single NOT Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EB87108</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EB87110</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <datasheet>http://www.amphenolrf.com/media/downloads/2775/132289.pdf</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EB87116</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>33</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EB8711C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10M</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EB8712F</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>74AUC1GU04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74auc1gu04.pdf</datasheet>
+      <libsource lib="74xGxx" part="74AUC1GU04" description="74AUC1G04, Single NOT Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EB87149</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>74AUC1GU04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74auc1gu04.pdf</datasheet>
+      <libsource lib="74xGxx" part="74AUC1GU04" description="74AUC1G04, Single NOT Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EB8714F</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>74AUC1GU04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74auc1gu04.pdf</datasheet>
+      <libsource lib="74xGxx" part="74AUC1GU04" description="74AUC1G04, Single NOT Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EB87155</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EB87193</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EB8719C</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EB871A2</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EB871A8</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EBAD9E1</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EBAE0AD</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EBC307D</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EBC7756</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>74AUC1GU04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74auc1gu04.pdf</datasheet>
+      <libsource lib="74xGxx" part="74AUC1GU04" description="74AUC1G04, Single NOT Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EBCD9D5</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EBD46FE</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <datasheet>http://www.amphenolrf.com/media/downloads/2775/132289.pdf</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EC33B64</tstamp>
+    </comp>
+    <comp ref="FB3">
+      <value>Ferrite_Bead</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">490-1040-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EC81150</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>Ferrite_Bead</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">490-1040-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EC8404C</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>Ferrite_Bead</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">490-1040-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EC846B5</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <datasheet>http://www.amphenolrf.com/media/downloads/2775/132289.pdf</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EB8713D</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>33</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5ECD8C9B</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x01_Male</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EBE2FFA</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x01_Male</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EBE0D06</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x01_Male</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EBE4410</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <datasheet>http://www.amphenolrf.com/media/downloads/2775/132289.pdf</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5ECF6975</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>33</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EC31BB6</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>33</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EC3C080</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <datasheet>http://www.amphenolrf.com/media/downloads/2775/132289.pdf</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EC4E7A4</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>74AUC1G74</value>
+      <footprint>Package_SO:VSSOP-8_2.3x2mm_P0.5mm</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <libsource lib="74xGxx" part="74AUC1G74" description="Single D Flip-Flop, Low-Voltage CMOS"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5ECC35BA</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>74AUC1G79</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <libsource lib="74xGxx" part="74AUC1G79" description="Single D Flip-Flop, Low-Voltage CMOS"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5ECC4894</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5ECF5946</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/Oscillators/" tstamps="/5EB467C5/"/>
+      <tstamp>5EDC2290</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5EB694AC/"/>
+      <tstamp>5EB77F53</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR71C475KA73-01.pdf</datasheet>
+      <fields>
+        <field name="Digikey">490-5332-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5EB694AC/"/>
+      <tstamp>5EB77F59</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/Power/" tstamps="/5EB694AC/"/>
+      <tstamp>5EB77F72</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323F</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/Power/" tstamps="/5EB694AC/"/>
+      <tstamp>5EB77F78</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power/" tstamps="/5EB694AC/"/>
+      <tstamp>5EB77F7E</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1.5uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71E155KA88-01.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">GRM21BR71E155KA88L</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5EB694AC/"/>
+      <tstamp>5EB77F84</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>22.5k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power/" tstamps="/5EB694AC/"/>
+      <tstamp>5EB77F8D</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>18k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power/" tstamps="/5EB694AC/"/>
+      <tstamp>5EB77F97</tstamp>
+    </comp>
+    <comp ref="FB4">
+      <value>Ferrite_Bead</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">490-1040-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <sheetpath names="/Power/" tstamps="/5EB694AC/"/>
+      <tstamp>5EB77FA4</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuse_Littelfuse-NANO2-451_453</footprint>
+      <datasheet>https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_451_453_datasheet.pdf.pdf</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Power/" tstamps="/5EB694AC/"/>
+      <tstamp>5EB77FC5</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Power/" tstamps="/5EB694AC/"/>
+      <tstamp>5EBA3798</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1nF</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5EB694AC/"/>
+      <tstamp>5EBAA553</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Barrel_Jack</value>
+      <footprint>Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/digikeypdf/pj-102ah.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">CP-102AH-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack" description="DC Barrel Jack"/>
+      <sheetpath names="/Power/" tstamps="/5EB694AC/"/>
+      <tstamp>5EB77FBF</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>L</value>
+      <footprint>Inductor_SMD:L_1008_2520Metric</footprint>
+      <datasheet>https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-wcl2520-wire-wound-chip-inductor.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">283-WCL2520-1R0-RCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Power/" tstamps="/5EB694AC/"/>
+      <tstamp>5EAE5154</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">490-5242-6-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5EB694AC/"/>
+      <tstamp>5EAED45F</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>AP2127K-ADJ</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2127.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">AP2127K-ADJTRG1DIDKR-ND</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AP2127K-ADJ" description="300mA low dropout adjustable linear regulator, shutdown pin, 2.5V-6V input voltage, SOT-23-5 package"/>
+      <sheetpath names="/Power/" tstamps="/5EB694AC/"/>
+      <tstamp>5EB77F4D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xGxx" part="74AUC1G74">
+      <aliases>
+        <alias>74AUP1G74</alias>
+      </aliases>
+      <description>Single D Flip-Flop, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SSOP*</fp>
+        <fp>VSSOP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74AUC1G74</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="input"/>
+        <pin num="2" name="D" type="input"/>
+        <pin num="3" name="~Q" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Q" type="output"/>
+        <pin num="6" name="~CLR" type="input"/>
+        <pin num="7" name="~PRE" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xGxx" part="74LVC1G04">
+      <aliases>
+        <alias>74LVC1GU04</alias>
+        <alias>74AHC1G04</alias>
+        <alias>74AHCT1G04</alias>
+        <alias>74AUC1G04</alias>
+        <alias>74AUP1G04</alias>
+        <alias>74AHC1GU04</alias>
+        <alias>74AHCT1GU04</alias>
+        <alias>74AUC1GU04</alias>
+        <alias>74AUP1GU04</alias>
+      </aliases>
+      <description>Single NOT Gate, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G04</field>
+      </fields>
+      <pins>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xGxx" part="74LVC1G79">
+      <aliases>
+        <alias>74AUC1G79</alias>
+        <alias>74AUP1G79</alias>
+      </aliases>
+      <description>Single D Flip-Flop, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G79</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="input"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Q" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack">
+      <aliases>
+        <alias>Jack-DC</alias>
+      </aliases>
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x01_Male">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Ferrite_Bead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <aliases>
+        <alias>1N4448</alias>
+        <alias>1N4149</alias>
+        <alias>1N4151</alias>
+        <alias>1N914</alias>
+        <alias>BA243</alias>
+        <alias>BA244</alias>
+        <alias>BA282</alias>
+        <alias>BA283</alias>
+        <alias>BAV17</alias>
+        <alias>BAV18</alias>
+        <alias>BAV19</alias>
+        <alias>BAV20</alias>
+        <alias>BAV21</alias>
+        <alias>BAW75</alias>
+        <alias>BAW76</alias>
+        <alias>BAY93</alias>
+      </aliases>
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP2204K-ADJ">
+      <aliases>
+        <alias>AP2127K-ADJ</alias>
+      </aliases>
+      <description>150mA low dropout adjustable linear regulator, wide input voltage range, SOT-23-5 package</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2204.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2204K-ADJ</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="ADJ" type="input"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xGxx">
+      <uri>D:\Program Files\KiCad\share\kicad\library/74xGxx.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J11-Pad1)">
+      <node ref="J11" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="U3" pin="3"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U6" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="U8" pin="4"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J4" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J7" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J11" pin="2"/>
+      <node ref="C16" pin="2"/>
+    </net>
+    <net code="3" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="4" name="Net-(R7-Pad2)">
+      <node ref="U8" pin="5"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="5" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="6" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(J5-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="9" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="10" name="VCC">
+      <node ref="FB3" pin="2"/>
+      <node ref="FB3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U8" pin="8"/>
+      <node ref="U8" pin="7"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="FB2" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="J9" pin="1"/>
+      <node ref="J10" pin="1"/>
+      <node ref="U8" pin="6"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U7" pin="5"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="FB2" pin="2"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="12" name="Net-(U4-Pad4)">
+      <node ref="U5" pin="2"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="13" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="14" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="15" name="Net-(J4-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="16" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="17" name="Net-(U3-Pad2)">
+      <node ref="U5" pin="4"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="18" name="Net-(C13-Pad2)">
+      <node ref="U7" pin="4"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C13" pin="2"/>
+    </net>
+    <net code="19" name="Net-(F1-Pad2)">
+      <node ref="J6" pin="1"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="20" name="Net-(J7-Pad2)">
+      <node ref="J7" pin="2"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="21" name="Net-(C15-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="22" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="23" name="Net-(C12-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U7" pin="1"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="24" name="Net-(FB4-Pad1)">
+      <node ref="Q1" pin="2"/>
+      <node ref="FB4" pin="1"/>
+    </net>
+    <net code="25" name="Net-(C11-Pad1)">
+      <node ref="FB4" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+  </nets>
+</export>
